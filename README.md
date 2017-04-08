@@ -4,4 +4,5 @@ choice.
 
 In this repository:
 Mouse Synthesizer
+
 ![Mouse Synthesizer](images/mouse_synth.png)
