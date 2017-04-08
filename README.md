@@ -3,4 +3,5 @@ In using the browser's WebAPI, Javascript becomes the obvious lanugage of
 choice.
 
 In this repository:
+Mouse Synthesizer
 ![Mouse Synthesizer](images/mouse_synth.png)
