@@ -1,0 +1,58 @@
+* {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+#wrapper {
+    margin: 2% auto;
+    width:500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,.19), 1px 1px rgba(0,0,0,.23);
+}
+
+#pitch_box {
+    width: 500px;
+    height: 500px;
+    background-color: darkgrey;
+}
+
+.nav {
+    width: 500px;
+    height: 100px;
+    background-color: #444444; /*#36454f*/;
+}
+
+#stop_box {
+    /*Change the cursor to a pointer when over the stop button*/
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    /* for text use: padding-top: 1.9em;*/
+    padding: 6% 6% 6% 6%;
+    text-align: center;
+    /*box-shadow: 0 14px 28px rgba(0,0,0,.25), 10px 10px rgba(0,0,0,.23);*/
+}
+
+#stop_box p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.stop_icon {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
